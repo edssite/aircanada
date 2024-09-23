@@ -1,0 +1,52 @@
+.two-col {
+    display: flex;
+}
+
+.two-col-container {
+}
+
+.two-col {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.two-col img {
+    width: 600px;
+    height: 250px;
+}
+
+.two-col > div {
+    padding: 10px;
+}
+.two-col > div > div:last-child h2 a:any-link {
+    font-size: x-large;
+    color: rgb(0, 81, 139);
+    text-decoration: underline;
+}
+
+.three-col {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.three-col > div {
+    width: 400px;
+    padding: 10px;
+}
+
+.three-col img {
+    width: 400px;
+    height: 350px;
+}
+
+.three-col a:any-link {
+    font-size: x-large;
+    color: rgb(0, 81, 139);
+    text-decoration: underline;
+}
+

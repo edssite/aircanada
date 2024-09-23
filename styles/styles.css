@@ -10,6 +10,10 @@
  * governing permissions and limitations under the License.
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ @import url('../blocks/custom/page-container.css');
+ @import url('../blocks/custom/col.css');
+
 :root {
   /* colors */
   --background-color: white;
@@ -20,8 +24,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: Open Sans, Arial;
-  --heading-font-family: Open Sans;
+  --body-font-family: "Open Sans", Arial;
+  --heading-font-family: "Open Sans", Arial;
 
   /* body sizes */
   --body-font-size-m: 22px;
