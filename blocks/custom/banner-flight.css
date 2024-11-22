@@ -1,0 +1,95 @@
+
+.banner-flight-container {
+    background-image: url('../../icons/flights.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    z-index: 0;
+
+}
+
+
+.banner-flight {
+    /* Flexbox for centering */
+    display: flex;
+    flex-direction: column; /* Keeps the two divs stacked vertically */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    height: 100%; /* Ensure the container takes enough height for centering */
+}
+
+.banner-flight > div:first-child {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center; /* Optional: Ensures text alignment inside the div */
+}
+
+.banner-flight > div:last-child {
+    width: 50%;
+    padding: 10px;
+    text-align: center; /* Optional: Ensures content alignment inside the div */
+}
+
+.banner-flight > div:last-child img {
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures the image content respects the border radius */
+}
+
+.image-left > div{
+    display: flex;
+}
+
+
+.glass-banner-container {
+    position: relative;
+    padding-bottom: 220px;
+    margin: 0;
+
+    h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+.glass-banner > div {
+    display: flex;
+    position: relative; /* Needed for positioning children relative to this container */
+    height: 300px; /* Example height */
+    width: 100%; /* Adjust as needed */
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: small;
+    }
+  }
+  
+  .glass-banner > div > div:first-child {
+    position: absolute; /* Allows stacking */
+    top: 70%; /* Center vertically */
+    left: 30%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Aligns the center of the div to the position */
+    z-index: 10; /* Ensures it's on top */
+    width: 500px; /* Example dimensions */
+    height: 150px; /* Example dimensions */
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white for glass effect */
+    backdrop-filter: blur(10px); /* Creates the glass-like blur */
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for depth */
+    padding: 20px;
+  }
+  
+  .glass-banner > div > div:last-child {
+    flex: 1; /* Fills available space */
+    position: relative;
+  }
+
+  .glass-banner > div > div:last-child img {
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures the image content respects the border radius */
+  }

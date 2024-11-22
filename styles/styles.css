@@ -13,6 +13,8 @@
  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
  @import url('../blocks/custom/page-container.css');
  @import url('../blocks/custom/col.css');
+ @import url('../blocks/custom/banner-flight.css');
+
 
 :root {
   /* colors */
@@ -259,4 +261,3 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
-
